@@ -7,8 +7,8 @@ export default ()=>{
     return(
         
         <ul>
-        {items.map(item => (
-            <li>{item}</li>
+        {items.map((item, index) => (
+            <ListItems key={index} text={items[index]}/>
         ))}
         </ul>
     )
