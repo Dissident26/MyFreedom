@@ -1,0 +1,56 @@
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+  
+  .active {
+    background-color: #4CAF50; /* Add an active/current color */
+  }
+    /*переопределяю псевдоэлементы, ибо теряются при изменении имя класса*/
+.fa-home-v:before {
+    content: "\f015";
+}
+.fa-search-v:before {
+    content: "\f002";
+}
+.fa-envelope-v:before {
+    content: "\f0e0";
+}
+.fa-globe-v:before {
+    content: "\f0ac";
+}
+.fa-trash-v:before {
+    content: "\f1f8";
+}
+.icon-bar-v {
+    width: 90px; /* Set a specific width */
+    background-color: #555; /* Dark-grey background */
+  }
+  
+  .icon-bar-v a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+  }
+  
+  .icon-bar-v a:hover {
+    background-color: #000; /* Add a hover color */
+  }

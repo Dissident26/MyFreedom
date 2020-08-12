@@ -1,0 +1,21 @@
+.nav-bar_main{
+    list-style: none;
+    font-size: 24px;
+}
+.nav-bar_item{
+    width: 100px;
+    margin: 5px;
+
+}
+.nav-bar_item:hover{
+    box-shadow: 1px 1px 0px 1px rgba(0,0,0,1);
+}
+
+.nav-bar_item a{
+    text-decoration: none;
+    color: black;
+}
+.active-tab a{
+    color: white !important; 
+    background-color: black;
+}
