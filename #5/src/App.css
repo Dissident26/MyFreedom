@@ -1,0 +1,43 @@
+body{
+    margin: 0 auto;
+}
+.edit, .delete{
+    margin: 2px;
+    cursor: pointer;
+}
+.edit:hover, .delete:hover{
+    color: red;
+}
+.menu{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu li, .add-button{
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.active-item, .add-button:hover{
+    background-color: black;
+    color: white;
+}
+.menu li:hover{
+    background-color: lightgrey;
+    color: black;
+}
+.form{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+ol{
+    margin-left: 20%;
+}
