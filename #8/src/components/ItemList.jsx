@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import {getData} from './functions';
 import Item from './Item';
 import { Switch, Route, Redirect, useParams } from 'react-router-dom';
-
+import Random from './Random';
 export default function ItemList(){
         //url's
     const urlAll = 'https://dog.ceo/api/breeds/list/all';
@@ -32,7 +32,10 @@ export default function ItemList(){
                 )}
                 </ul>)}
                 </Route>
-                <Route path={'/:selected'}>
+                <Route exact path={'/random'}>
+                    <Random/>
+                </Route>
+                <Route exact path={'/:selected'}>
                     <ItemWIthSelection />
                 </Route>
             </Switch>
