@@ -1,0 +1,31 @@
+body{
+  margin: 0 auto;
+  width: 80%;
+}
+.counter-buttons{
+  padding: 5px;
+}
+.counter-counter{
+  padding: 5px;
+  font-weight: bold;
+}
+.counter-button_red,
+.counter-button_green,
+.edit-button{
+  border: none;
+  background-color: white;
+}
+.counter-button_green:hover{
+  background-color:lightgreen;
+}
+.counter-button_red:hover{
+  background-color: pink;
+}
+.add-item-butons{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.edit-button:hover{
+  background-color:lightgray;
+}
